@@ -508,8 +508,9 @@ body.offcanvas {
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
+  /* background-color: #000;
+  color: #fff; */
+  background-color: #FEF6D7;color: black;
   position: relative;
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
@@ -885,8 +886,6 @@ body.offcanvas {
   font-size: 18px;
   line-height: 1.5; }
 
-#get-in-touch {
-  padding: 3em 0; }
   #get-in-touch .btn-learn {
     padding: 15px 30px !important;
     font-size: 13px;

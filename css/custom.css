@@ -142,6 +142,22 @@ select {
     margin-left: 15%;
 
 }
+.faq
+{
+    margin-left: 1%;
+}
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img-ph
+{display: none;}
+.footertxt
+{
+    font-size: 14px;
+}
 
 @media screen and (max-width: 905px) {
     .parentbanner {
@@ -159,8 +175,31 @@ select {
         /* align-items: center; */
         /* justify-content: center; */
     }
+    .faq
+    {
+        margin-left: 3%;
+    }
+    .img-ph
+{display: block;}
+.services-wrap 
+{
+    display: none;
 }
 
+.footer
+{
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 950px) {
+    .img-ph
+{display: block;}
+.services-wrap 
+{
+    display: none;
+}
+}
 @media screen and (max-width: 705px) {
 
     .parentbanner,
@@ -189,6 +228,25 @@ select {
     .servicedabba,.faqdabba {
         margin: 0px;
     }
+    .faq
+    {
+        margin-left: 5%;
+    }
+    .img-ph
+    {display: block;}
+    .footer
+{
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.footertxt
+{
+    font-size: 10px;
+    
+}
 
 }
 
