@@ -3,28 +3,24 @@
     padding: 10px;
     /* border:  2px solid #FFCB05; */
     background: rgba(255, 203, 5, 0.2);
+    /* background: url(../banner.jpeg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../banner.jpeg);
+
+    /* opacity: 0.75; */
+    background-position: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 
     /* margin: 10px; */
 }
 
-.banner {
-
-    height: 500px;
-    /* border: 2px solid; */
-
-    width: 100%;
-    background: url(../banner.png);
-    background-size: 100% 100%;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
+.bannerleft {
+    padding: 15px;
 }
+
 
 .common-box {
     display: flex;
@@ -64,7 +60,7 @@
 .formdiv {
     /* border: 2px solid; */
     /* height: 500px; */
-    width: 60%;
+    width: 35%;
     margin: 0px 0px 0px 10px;
 
 }
@@ -142,21 +138,34 @@ select {
     margin-left: 15%;
 
 }
-.faq
-{
+
+.faq {
     margin-left: 1%;
 }
-.footer
-{
+
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.img-ph
-{display: none;}
-.footertxt
-{
+
+.img-ph {
+    display: none;
+}
+
+.footertxt {
     font-size: 14px;
+}
+
+.piccontainer {
+    height: 20vh;
+    width: 80%;
+    /* margin: 10px; */
+    /* margin-right: 100px; */
+    /* border: 2px solid; */
+    background: url('../images/josaso banner web.png');
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 @media screen and (max-width: 905px) {
@@ -164,7 +173,8 @@ select {
         flex-wrap: wrap;
     }
 
-    .servicedabba,.faqdabba {
+    .servicedabba,
+    .faqdabba {
         margin: 0px;
     }
 
@@ -175,31 +185,34 @@ select {
         /* align-items: center; */
         /* justify-content: center; */
     }
-    .faq
-    {
+
+    .faq {
         margin-left: 3%;
     }
-    .img-ph
-{display: block;}
-.services-wrap 
-{
-    display: none;
-}
 
-.footer
-{
-    flex-wrap: wrap;
-}
+    .img-ph {
+        display: block;
+    }
+
+    .services-wrap {
+        display: none;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 950px) {
-    .img-ph
-{display: block;}
-.services-wrap 
-{
-    display: none;
+    .img-ph {
+        display: block;
+    }
+
+    .services-wrap ,.piccontainer{
+        display: none;
+    }
 }
-}
+
 @media screen and (max-width: 705px) {
 
     .parentbanner,
@@ -225,28 +238,31 @@ select {
         width: 100%;
     }
 
-    .servicedabba,.faqdabba {
+    .servicedabba,
+    .faqdabba {
         margin: 0px;
     }
-    .faq
-    {
+
+    .faq {
         margin-left: 5%;
     }
-    .img-ph
-    {display: block;}
-    .footer
-{
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
 
-}
-.footertxt
-{
-    font-size: 10px;
-    
-}
+    .img-ph {
+        display: block;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .footertxt {
+        font-size: 10px;
+
+    }
 
 }
 
