@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /work-page2.html
+Disallow: /work-page3.html
+Disallow: /work-page4.html
+Disallow: /contact.html
+
+Allow: /index.html
+Allow: /services.html
+Allow: /about.html
